@@ -1,22 +1,23 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Mahlatse Muchanga</title>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
-<style>
-*{margin:0;padding:0;box-sizing:border-box}
+<meta name="viewport"
+ content="width=device-width, initial-scale=1.0"> 
+ <title>Mahlatse Muchanga | IT Graduate</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Playfair+Display:wght@600&display=swap" rel="stylesheet"> 
+  <style> *{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
 body{font-family:'Poppins',sans-serif;background:#f8e8ec}
-.card-wrap{max-width:1150px;margin:30px auto;background:white;border-radius:22px;overflow:hidden;box-shadow:0 20px 80px rgba(0,0,0,.1)}
-nav{display:flex;justify-content:space-between;align-items:center;padding:20px 40px;border-bottom:1px solid #fff0f5;background:white}
-.logo{font-family:'Playfair Display';font-size:28px;color:#d6a0b0}
+.card-wrap{max-width:1150px;margin:30px auto;background:white;border-radius:22px;overflow:hidden;box-shadow:0 20px 80px rgba(0,0,0,.1)} nav{display:flex;justify-content:space-between;align-items:center;padding:20px 40px;border-bottom:1px solid #fff0f5;background:white;position:sticky;top:0;z-index:10}
+.logo{font-family:'Playfair Display';font-size:28px;color:#d6a0b0;letter-spacing:1px}
 .logo span{color:#c94c7a}
 .menu{display:flex;gap:26px;align-items:center;font-size:14px;color:#555}
 .menu a{text-decoration:none;color:#555;font-weight:500}
+.menu a:hover{color:#c94c7a}
 .contact-btn{background:#d99fb1;color:white;padding:8px 18px;border-radius:20px;text-decoration:none;font-weight:600}
-.hero{display:grid;grid-template-columns:1fr 1fr;gap:30px;padding:60px 50px;background:linear-gradient(180deg,#fffafc 0%,#fff5f7 100%)}
-.badge{border:1px solid #eec2cd;color:#b35a74;background:#fdf2f6;padding:6px 14px;border-radius:20px;font-size:12px;display:inline-flex;align-items:center;gap:8px;margin-bottom:22px}
+.hero{display:grid;grid-template-columns:1fr 1fr;gap:30px;padding:60px 50px;background:linear-gradient(180deg,#fffafc 0%,#fff5f7 100%)} .badge{border:1px solid #eec2cd;color:#b35a74;background:#fdf2f6;padding:6px 14px;border-radius:20px;font-size:12px;display:inline-flex;align-items:center;gap:8px;margin-bottom:22px}
 .dot{width:12px;height:12px;background:#5bd6a2;border-radius:50%}
 .hero h1{font-family:'Playfair Display';font-size:54px;line-height:1.05;color:#222;margin-bottom:18px}
 .hero h3{font-size:14px;color:#555;font-weight:400;margin-bottom:14px}
@@ -24,77 +25,56 @@ nav{display:flex;justify-content:space-between;align-items:center;padding:20px 4
 .btns{display:flex;gap:14px;margin-bottom:36px}
 .btn-pink{background:#d99fb1;color:white;padding:12px 22px;border-radius:28px;border:none;font-weight:600;font-size:14px;text-decoration:none;display:flex;align-items:center;gap:6px}
 .btn-white{background:white;color:#a95a74;border:1px solid #e8b3c0;padding:12px 22px;border-radius:28px;font-weight:600;font-size:14px;text-decoration:none}
-.stats{display:flex;gap:12px}
-.stat{background:white;border:1px solid #ffe4ec;padding:14px 16px;border-radius:14px;display:flex;gap:10px;align-items:center;min-width:130px;box-shadow:0 4px 14px rgba(0,0,0,.03)}
-.stat-icon{width:36px;height:36px;background:#fdf0f3;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:16px}
+.stats{display:flex;gap:12px;flex-wrap:wrap}
+.stat{background:white;border:1px solid #ffe4ec;padding:14px 16px;border-radius:14px;display:flex;gap:10px;align-items:center;min-width:130px;box-shadow:0 4px 14px rgba(0,0,0,.03)} .stat-icon{width:36px;height:36px;background:#fdf0f3;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:16px}
 .stat b{font-size:12px;display:block;color:#222}
 .stat span{font-size:10px;color:#888}
-.laptop-frame{background:#111;border-radius:16px 16px 0 0;padding:12px 12px 0 12px;box-shadow:0 20px 60px rgba(0,0,0,.15)}
-.laptop-screen{background:white;border-radius:8px 8px 0 0;padding:16px;height:300px;display:grid;grid-template-columns:1.6fr .9fr;gap:14px}
-.code-box{background:#fffafc;border:1px solid #ffe4ec;border-radius:10px;padding:12px;font-size:10px;line-height:1.6;color:#444}
+.laptop-frame{background:#111;border-radius:16px 16px 0 0;padding:12px 12px 0 12px;box-shadow:0 20px 60px rgba(0,0,0,.15)} .laptop-screen{background:white;border-radius:8px 8px 0 0;padding:16px;height:300px;display:grid;grid-template-columns:1.6fr .9fr;gap:14px} .code-box{background:#fffafc;border:1px solid #ffe4ec;border-radius:10px;padding:12px;font-size:10px;line-height:1.6;color:#444}
 .projects-box{background:#fde8ee;border-radius:10px;padding:12px}
 .projects-box h4{font-size:12px;margin-bottom:12px}
 .proj{display:flex;gap:8px;margin-bottom:12px;align-items:flex-start}
 .proj-dot{width:10px;height:10px;border-radius:50%;margin-top:2px}
 .proj b{font-size:11px;display:block}
 .proj span{font-size:9px;color:#777}
-.laptop-base{height:14px;background:linear-gradient(#d0d0d0,#a8a8a8);border-radius:0 0 14px 14px;margin:0 20px;position:relative}
-.laptop-base:after{content:'';position:absolute;left:50%;top:0;width:60px;height:6px;background:#999;border-radius:0 0 6px 6px;transform:translateX(-50%)}
-.skills-bar{background:#fdf6f7;padding:16px 50px;display:flex;justify-content:center;gap:18px;color:#c48a99;font-size:13px;font-weight:500;border-top:1px solid #fff0f5}
-@media(max-width:900px){.hero{grid-template-columns:1fr;padding:30px 22px}.menu{display:none}.stats{flex-wrap:wrap}.laptop-screen{height:auto}}
+.laptop-base{height:14px;background:linear-gradient(#d0d0d0,#a8a8a8);border-radius:0 0 14px 14px;margin:0 20px;position:relative} .skills-bar{background:#fdf6f7;padding:16px 50px;display:flex;justify-content:center;gap:18px;color:#c48a99;font-size:13px;font-weight:500;border-top:1px solid #fff0f5;flex-wrap:wrap} @media(max-width:900px){.hero{grid-template-columns:1fr;padding:30px 22px}.menu{display:none}.laptop-screen{height:auto}}
 </style>
 </head>
 <body>
 <div class="card-wrap">
 <nav>
-<div class="logo">Mahlatse <span>.M</span></div>
-<div class="menu"><a href="#">Home</a><a href="#">About</a><a href="#">Projects</a><a href="#">Skills</a><a href="#">Contact</a><a class="contact-btn" href="#">Contact</a></div>
+<div class="logo">Mahlatse <span>Muchanga</span></div> 
+<div class="menu"><a href="#home">Home</a><a href="#projects">Projects</a>
+    <a href="https://github.com/mahlatsemuchanga" target="_blank">GitHub</a>
+    <a class="contact-btn" href="mailto:muchangamahlatse@outlook.com">Contact</a>
+</div>
 </nav>
-
-<div class="hero">
+<div class="hero" id="home">
 <div>
-<div class="badge"><div class="dot"></div> • Available for IT roles</div>
-<h1>Hi, I'm Mahlatse Muchanga</h1>
-<h3>IT Graduate | Passionate about Software Development, Data & Cybersecurity</h3>
-<p>Recent IT graduate focused on building user-centered web applications and data-driven solutions. I love turning ideas into clean, scalable, and secure digital experiences.</p>
-<div class="btns">
-<a href="#" class="btn-pink">View My Work →</a>
-<a href="#" class="btn-white">Download CV ↓</a>
-</div>
-<div class="stats">
-<div class="stat"><div class="stat-icon">🎓</div><div><b>2024 Graduate</b><span>BSc IT - Damelin</span></div></div>
-<div class="stat"><div class="stat-icon">💻</div><div><b>10+ Projects</b><span>Built & Deployed</span></div></div>
-<div class="stat"><div class="stat-icon">🛡️</div><div><b>3 Certifications</b><span>Cloud • Security • Data</span></div></div>
+<div class="badge"><div class="dot"></div> 
+Available for IT inetrnships,Data Analyst & Web Dev roles</div>
+ <h1>Hi, I am Mahlatse Malunda Muchanga</h1> 
+ <h3>IT Graduate | Aspiring Data Analyst & Web Developer</h3>
+  <p>Diploma in IT from Damelin (2021). 3 years experience in data management, POPIA compliance & IT Support at Dept of Home Affairs. I love turning messy data into clean dashboards and building simple, user-friendly web apps.</p> 
+  <div class="btns"> <a href="https://github.com/mahlatsemuchanga" target="_blank" class="btn-pink">View My Work →</a> 
+<a href="mailto:muchangamahlatse@outlook.com" class="btn-white">Contact Me ↓</a> </div> <div class="stats"> <div class="stat"><div class="stat-icon">🎓</div><div><b>IT Graduate</b><span>Damelin 2021</span></div></div> <div class="stat"><div class="stat-icon">📊</div><div><b>Data Focus</b><span>Power BI • SQL • Excel</span></div></div> <div class="stat"><div class="stat-icon">📍</div><div><b>Pretoria</b><span>Gauteng, SA</span></div></div>
 </div>
 </div>
-
 <div class="laptop">
 <div class="laptop-frame">
 <div class="laptop-screen">
 <div class="code-box">
 <b>Projects Dashboard</b><br><br>
-{<br>
-&nbsp;&nbsp;def analyze_data(df):<br>
-&nbsp;&nbsp;&nbsp;&nbsp;return df.groupby("category").mean().<br><br>
-&nbsp;&nbsp;}<br><br>
-<div style="margin-top:30px;color:#aaa">— IT Support, Data, Web Dev —</div>
-</div>
-<div class="projects-box">
-<h4>Projects</h4>
-<div class="proj"><div class="proj-dot" style="background:#5bd6a2"></div><div><b>E-commerce App</b><span>Python/React - My portfolio & data projects</span></div></div>
-<div class="proj"><div class="proj-dot" style="background:#6aa8ff"></div><div><b>Data Viz Dashboard</b><span>SQL/PowerBI - Analytics</span></div></div>
-<div class="proj"><div class="proj-dot" style="background:#ffcf5a"></div><div><b>Security Audit</b><span>Network - Secure systems</span></div></div>
-<div style="font-size:9px;color:#999;margin-top:16px">In Progress</div>
-</div>
-</div>
-</div>
-<div class="laptop-base"></div>
-</div>
-</div>
-
-<div class="skills-bar"><span>Visual Basic.NET</span> • <span>C#</span> • <span>Java Script</span> • <span>HTML & CSS</span> • <span>SQL</span> • <span>PowerBI</span></div>
-</div>
-
-<footer style="text-align:center;padding:20px;color:#bba0a8;font-size:11px">© 2026 Mahlatse Muchanga • Aspiring Data Analyst & Web Developer💖</footer>
-</body>
-</html>
+def analyze_data(df):<br>
+&nbsp;&nbsp;return df.groupby("province").count()<br><br>
+# Gauteng: Highest load<br>
+# Female: 61.5% of patients
+<div style="margin-top:30px;color:#aaa">— GitHub: mahlatsemuchanga —</div> </div> <div class="projects-box" id="projects"> <h4>Featured Projects</h4> <a href="https://github.com/mahlatsemuchanga/healthcare-analysis" target="_blank" style="text-decoration:none;color:inherit">
+<div class="proj"><div class="proj-dot" style="background:#5bd6a2"></div><div><b>Healthcare Analysis</b><span>Excel • MySQL • Power BI → View Project</span></div></div> </a> <div class="proj"><div class="proj-dot" style="background:#6aa8ff"></div><div><b>Portfolio Site</b>
+<span>HTML / CSS / Responsive</span>
+</div></div> <div class="proj"><div class="proj-dot" style="background:#ffcf5a"></div>
+<div><b>Data & IT Support</b><span>POPIA • Digitisation • Support</span></div></div> </div> </div> </div>
+ <div class="laptop-base"></div> </div> </div> 
+ <div class="skills-bar"><span>Python</span> • <span>SQL</span> • <span>Power BI</span> • <span>Excel</span> • <span>C#</span> • <span>Java</span> • <span>HTML/CSS/JS</span></div> </div> 
+ <footer style="text-align:center;padding:20px;color:#bba0a8;font-size:11px">© 2026 Mahlatse Muchanga</footer>
+ </body> 
+ </html>
