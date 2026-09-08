@@ -1,0 +1,14 @@
+"Patient- ID","Full name",Age,Gender,Province,"Blood type",Diagnosis,"Admission date"
+P001,"Thando Nkosi",25,F,"Gauteng ",O+,Flu,1/5/2026
+P002,"James Jones",34,M,"Gauteng ",A+,Hypertension,1/15/2026
+P003,"Jane Smith",45,M,"Gauteng ",O-,Diabetes,5/1/2026
+P004,"Vakele Phasha",39,M,Limpopo,AB+,Hypertension,2/13/2026
+P005,"Warona Msomi",17,F,"Gauteng ",O+,Flu,6/16/2026
+P006,"Itumeleng Rabada",42,F,"Gauteng ",B+,Diabetes,2/15/2026
+P007,"Peter Mthembu",45,M,"Free State",O+,Diabetes,5/25/2026
+P008,"Okuhle Msizi",47,F,Gauteng,B+,Hypertension,4/20/2026
+P009,"John Williams",45,M,Gauteng,A+,Hypertension,5/30/2026
+P010,"Kyle Doe",32,M,Limpopo,B+,Diabetes,5/20/2026
+P011,"Paul Sithole",27,M,Limpopo,A+,Flu,3/10/2026
+P013,"Kagiso Rampedi",55,F,"Gauteng ",B+,Hypertension,1/22/2026
+P014,"Thabo Khoza",56,M,"Free State",AB+,Diabetes,7/19/2026
